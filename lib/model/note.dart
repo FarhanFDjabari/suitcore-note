@@ -46,7 +46,5 @@ class Note extends HiveObject implements ModelFactory {
         "title": title,
         "tags": List<dynamic>.from(tags.map((x) => x)),
         "body": body,
-        "id": id,
-        "updatedAt": updatedAt,
       };
 }
